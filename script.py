@@ -1,7 +1,29 @@
 import os 
 import random
-a=["import os","import numpy","import streamlit as st"]
-x=random.randrange(0,2)
+a = [
+    "import os", 
+    "import numpy", 
+    "import streamlit as st",
+    "import pandas as pd",
+    "import matplotlib.pyplot as plt",
+    "import seaborn as sns",
+    "import tensorflow as tf",
+    "import torch",
+    "import cv2",
+    "import time",
+    "import json",
+    "import re",
+    "import requests",
+    "import sqlite3",
+    "import plotly.express as px",
+    "import scikit-learn as skl",
+    "import keras",
+    "import PIL.Image as Image",
+    "import sys",
+    "import random"
+]
+
+x = random.randrange(0, 20)
 with open("main.py", "a+") as f1:  
     f1.write("\n"+a[x])
 c1= "git add ." 
