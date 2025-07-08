@@ -4,7 +4,7 @@ client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
   api_key = ""
 )
- 
+# random stuff
 def trans(a):
     con = """You are an advanced language model capable of understanding and translating multiple languages. 
     Your task is to translate the provided text into English. Do not provide context or explanations. 
